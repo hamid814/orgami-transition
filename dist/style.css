@@ -1,0 +1,21 @@
+img {
+  position: fixed;
+  border-radius: 35%;
+  left: 500px;
+  top: 100px;
+  width: 400px;
+  height: 400px;
+}
+
+#img-o {
+  animation: fadeIn 500ms alternate-reverse infinite;
+}
+
+#img-e {
+  animation: fadeIn 500ms alternate infinite;
+}
+
+.stop {
+  z-index: 20;
+  animation: none;
+}
